@@ -130,3 +130,48 @@ font-family: 'Spartan', sans-serif;
 .review {
     color: hsl(300, 24%, 96%);
 }
+
+
+@media screen and (max-width: 375px){
+    .headline {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+    
+    .heading{
+        font-size: 30px;
+        text-align: center;
+    }
+    .subheading{
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    
+    .ratingContainer {
+        margin: auto;
+    }
+    
+    .ratings {
+        width: 90%;
+        margin: 15px auto !important;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .stars{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .testimonial {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    
+    .review {
+        margin-top: 25px;
+    }
+    
+}
