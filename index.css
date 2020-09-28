@@ -39,7 +39,7 @@ font-family: 'Spartan', sans-serif;
 
 .ratingContainer{
     margin-top: 60px;
-    margin-left: 13%;
+    margin-left: 8%;
     flex-grow: 3;
 }
 
@@ -61,7 +61,7 @@ font-family: 'Spartan', sans-serif;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
     background-color: hsla(303, 10%, 53%, 0.2);
-    width: 500px;
+    width: 400px;
     padding: 5px 10px 5px 10px;
     border-radius: 15px;
     margin: 20px 0px;
