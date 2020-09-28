@@ -6,10 +6,127 @@ font-family: 'Spartan', sans-serif;
 700 - Bold
 */
 
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+.background {
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
 .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-.attribution a {
-color: hsl(228, 45%, 44%);
+    text-align: center;
+}
+
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 5% 5% 5%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.headline{
+    flex-grow: 1;
+    max-width: 40%;
+    margin-left: 4%;
+}
+
+.ratingContainer{
+    margin-top: 60px;
+    margin-left: 16%;
+    flex-grow: 3;
+}
+
+.heading {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.subheading {
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -5%;
+    line-height: 35px;
+}
+
+.ratings {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    background-color: hsla(303, 10%, 53%, 0.2);
+    width: 500px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+#ratingTwo {
+    margin-left: 10%;
+}
+
+#ratingThree {
+    margin-left: 20%;
+}
+
+.stars {
+    color: orange;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profileContainer{
+    display: flex;
+}
+
+.profile{
+    margin: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.testimonial {
+    background-color: hsl(300, 43%, 22%);
+    flex-grow: 1;
+    margin: 1% auto;
+    max-width: 20%;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#testimonialTwo {
+    margin-top: 5%;
+}
+
+#testimonialThree {
+    margin-top: 10%;
+}
+
+.clientName {
+    color: white;
+    font-weight: 600;
+}
+
+.status {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.review {
+    color: hsl(300, 24%, 96%);
 }
