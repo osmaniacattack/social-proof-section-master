@@ -131,6 +131,49 @@ font-family: 'Spartan', sans-serif;
     color: hsl(300, 24%, 96%);
 }
 
+@media screen and (max-width: 1024px){
+    .headline {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+    
+    .heading{
+        font-size: 70px;
+        text-align: center;
+    }
+    .subheading{
+        font-size: 35px;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    
+    .ratingContainer {
+        margin: auto;
+    }
+    
+    .ratings {
+        width: 90%;
+        margin: 15px auto !important;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .stars{
+        display: block;
+        margin-bottom: 25px;
+    }
+    
+    .testimonial {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    
+    .review {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+}
 
 @media screen and (max-width: 375px){
     .headline {
